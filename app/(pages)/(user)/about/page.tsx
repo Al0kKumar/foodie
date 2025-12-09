@@ -155,7 +155,7 @@ export default function About() {
             <motion.img
                 initial={{ x: 0, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }} // Increase width to 150%
-                transition={{ duration: 0.8, delay: 0.3, origin: 1 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
                 viewport={{ once: true }}
                 src="/food-banner.png"
                 alt="Food Banner"

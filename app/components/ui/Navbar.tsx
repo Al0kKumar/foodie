@@ -118,7 +118,7 @@ export default function Navbar() {
 
             {user && <div className="lg:hidden block"><ProfileButton isAdmin={isAdmin} letter={user.name ? user.name[0].toUpperCase() : user.username[0].toUpperCase()} /></div>}
 
-            {!user && <div className="lg:hidden flex"><Link href="/signin"><LoginButton classname="hover:underline" /></Link></div>}
+            {!user && <div className="lg:hidden flex"><Link href="/signin"><LoginButton className="hover:underline" /></Link></div>}
             <button
                 className="cursor-pointer p-2 hover:bg-gray-600/60 text-gray-400 rounded-md hover:text-white"
                 onClick={() => setOpen(!open)}
